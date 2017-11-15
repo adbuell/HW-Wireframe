@@ -4,22 +4,30 @@ p {
   font-size: 18px;
 }
 section {
-  width: 300px;
-  height: 200px;
+  width: 495px;
+  height: 300px;
   background: #ccc;
   color:#777;
+  right: 20%;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+
 
 }
 
 header {
   padding: 20px;
-  margin-bottom: 20px;
   color: #777;
   text-align: center;
   background: #ccc;
-  width: 75%;
-  margin: auto;
+  width: 960px;
   font-size: 18px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+  height: 75px;
   }
 body {
   background-color: #777;
@@ -27,24 +35,46 @@ body {
 
 }
 nav {
-  padding-top: 100px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding: 20px;
   text-align: center;
   background: #ccc;
-  width: 75%;
-  margin: auto;
+  width: 960px;
   color: #777;
-  height: 20px;
+  height: 75px;
   font-size: 18px;
+  margin-top: 10px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+article {
+  background: #777;
+  color: #ccc;
+  height: 55%;
+  width: 92%;
+  text-align: center;
+  padding-top: 20px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  margin-top: 10%;
+  margin-bottom: .5px;
+  margin-right: auto;
+  margin-left: auto;
+
+
+}
+
 }
 
 aside {
   background: #ccc;
-  float: right;
-  width: 200px;
-  height: 200px;
-  padding: 20px;
+  width: 20px;
+  height: 20px;
+  color: #777;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 footer {
   margin-bottom: 20px;
@@ -52,6 +82,8 @@ footer {
   color: #777;
   text-align: center;
   background: #ccc;
-  width: 75%;
-  margin: auto;
+  width: 960px;
+  height: 75px;
+  margin left: auto;
+  margin-right: auto;
   font-size: 18px;
