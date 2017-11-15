@@ -32,14 +32,7 @@ nav {
   height: 20px;
   font-size: 18px;
 }
-.text {
-color: #777;
-}
-.clearfix::after {
-  display: block;
-  clear:both;
-  content: ""
-}
+
 aside {
   background: #ccc;
   float: right;
