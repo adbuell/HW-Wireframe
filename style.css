@@ -40,8 +40,15 @@ color: #777;
   clear:both;
   content: ""
 }
+aside {
+  background: #ccc;
+  float: right;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
 footer {
-  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
   color: #777;
   text-align: center;
