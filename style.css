@@ -2,15 +2,29 @@
 
 p {
   color: #777;
-  background: #ccc;
-  width: 300px;
-  height: 70px;
+  background: #ebebeb;
+  width: 400px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding-top: 4px;
+}
+h1 {
+  width: 400px;
+  height: 60px;
+  color: #777;
+  background: #ebebeb;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 45px;
+
 }
 section {
   width: 495px;
-  height: 350px;
-  background: #ccc;
-  color:#777;
+  height: 330px;
+  color: #777;
+  background: #ebebeb;
   right: 10%;
   text-align: center;
   margin-top: 20px;
@@ -21,8 +35,8 @@ section {
 
 header {
   padding: 20px;
-  color: #777;
   text-align: center;
+  color: #777;
   background: #ebebeb;
   width: 960px;
   font-size: 18px;
@@ -38,14 +52,16 @@ body {
   background-color: #777;
   font-family: "arial", helvetica neue, helvetica, sans-serif;
   width: 960px;
+  font-family: arial;
+  font-size: 18px;
 }
 
 nav {
   padding: 20px;
   text-align: center;
-  background: #ccc;
-  width: 960px;
   color: #777;
+  background: #ebebeb;
+  width: 960px;
   height: 75px;
   font-size: 18px;
   margin-top: 10px;
@@ -56,54 +72,45 @@ nav {
 
 
 aside {
-  background: #ccc;
   color: #777;
-  margin-left: auto;
+  background: #ebebeb;
+  margin-left: 20px;
   margin-right: -30%;
-  width: 400px;
-  height: 300px;
+  width: 480px;
+  height: 330px;
   float: right;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 10px;
   padding-top: 20px;
 
 }
 
 
-h1 {
-  width: 300px;
-  height: 70px;
-  background: #ccc;
-  color:#777;
-  /*margin-left: auto;
-  margin-right: auto;*/
-
-}
-
 footer {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px; 
   padding: 20px;
-  color: #777;
   text-align: center;
-  background: #ccc;
   width: 960px;
   height: 75px;
   margin left: auto;
   margin-right: auto;
   font-size: 18px;
+  color: #777;
+  background: #ebebeb;
 
 }
   article {
     background: #777;
     color: #ccc;
-    height: 75%;
+    height: 220px;
     width: 92%;
     text-align: center;
     padding-top: 10px;
     padding-right: 5px;
     padding-bottom: 5px;
     padding-right: 5px;
-    margin-top: 5%;
+    margin-top: 12%;
     margin-bottom: .5px;
     margin-right: auto;
     margin-left: auto;
