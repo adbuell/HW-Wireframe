@@ -1,18 +1,21 @@
 
 
 p {
-  font-size: 18px;
+  color: #777;
+  background: #ccc;
+  width: 300px;
+  height: 70px;
 }
 section {
   width: 495px;
-  height: 300px;
+  height: 350px;
   background: #ccc;
   color:#777;
-  right: 20%;
+  right: 10%;
   text-align: center;
   margin-top: 20px;
   padding-top: 20px;
-
+  margin-left: 26%
 
 }
 
@@ -20,20 +23,23 @@ header {
   padding: 20px;
   color: #777;
   text-align: center;
-  background: #ccc;
+  background: #ebebeb;
   width: 960px;
   font-size: 18px;
+  height: 75px;
   margin-top: 10px;
-  margin-right: auto;
+  margin-right: -30%;
   margin-bottom: 10px;
   margin-left: auto;
-  height: 75px;
+
   }
+
 body {
   background-color: #777;
   font-family: "arial", helvetica neue, helvetica, sans-serif;
-
+  width: 960px;
 }
+
 nav {
   padding: 20px;
   text-align: center;
@@ -43,39 +49,37 @@ nav {
   height: 75px;
   font-size: 18px;
   margin-top: 10px;
-  margin-right: auto;
+  margin-right: -30%;
   margin-bottom: 10px;
   margin-left: auto;
 }
-article {
-  background: #777;
-  color: #ccc;
-  height: 55%;
-  width: 92%;
-  text-align: center;
-  padding-top: 20px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-right: 5px;
-  margin-top: 10%;
-  margin-bottom: .5px;
-  margin-right: auto;
-  margin-left: auto;
 
-
-}
-
-}
 
 aside {
   background: #ccc;
-  width: 20px;
-  height: 20px;
   color: #777;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: -30%;
+  width: 400px;
+  height: 300px;
+  float: right;
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
 
 }
+
+
+h1 {
+  width: 300px;
+  height: 70px;
+  background: #ccc;
+  color:#777;
+  /*margin-left: auto;
+  margin-right: auto;*/
+
+}
+
 footer {
   margin-bottom: 20px;
   padding: 20px;
@@ -87,3 +91,25 @@ footer {
   margin left: auto;
   margin-right: auto;
   font-size: 18px;
+
+}
+  article {
+    background: #777;
+    color: #ccc;
+    height: 75%;
+    width: 92%;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-top: 5%;
+    margin-bottom: .5px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
