@@ -6,9 +6,6 @@
   font-family: "arial", helvetica neue, helvetica, sans-serif;
   font-size: 18px;
 }
-.ice {
-  margin-top: 20px;
-}
 
 p {
   margin-top: 10px;
@@ -76,4 +73,8 @@ aside {
 
   .clearfix::after {
     clear: both;
+}
+#ice {
+  margin-top: 40px;
+  padding-top: 20px;
 }
